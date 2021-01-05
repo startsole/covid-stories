@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router } from 'react-router-dom';
+import {HashRouter, Route} from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import { ThemeProvider } from '@material-ui/core/styles';
 import AOS from 'aos';
@@ -10,6 +10,10 @@ import Routes from './Routes';
 import 'swiper/css/swiper.min.css';
 import 'aos/dist/aos.css';
 import './assets/scss/index.scss';
+
+import {
+  Home as HomeView
+} from './views';
 
 const browserHistory = createBrowserHistory();
 
@@ -39,9 +43,15 @@ export default class App extends Component {
     });
     return (
       <ThemeProvider theme={theme}>
-        <Router history={browserHistory}>
+        <HashRouter basename="/">
+        {/*<Router history={browserHistory}>*/}
           <Routes />
-        </Router>
+
+        {/*this works*/}
+        {/*  <Route exact path="/" component={HomeView} />*/}
+
+        </HashRouter>
+        {/*</Router>*/}
       </ThemeProvider>
     );
   }
