@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5fb4bd876eac36dd0b19bacc06e95c96",
+    "revision": "28238dc0536b5d2b8414352604cfb02d",
     "url": "/covid-stories/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid-stories/static/css/2.52348831.chunk.css"
   },
   {
-    "revision": "3c714d3cdb212dd9c4de",
+    "revision": "310e13ece5d2fee04097",
     "url": "/covid-stories/static/css/main.778b3489.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid-stories/static/js/2.9f034dbb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3c714d3cdb212dd9c4de",
-    "url": "/covid-stories/static/js/main.b57fd069.chunk.js"
+    "revision": "310e13ece5d2fee04097",
+    "url": "/covid-stories/static/js/main.12570dd9.chunk.js"
   },
   {
     "revision": "bd48cd8f8be42bbbeb9a",
