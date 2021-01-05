@@ -75,5 +75,5 @@
     "rimraf": "^3.0.2",
     "typescript": "^3.5.1"
   },
-  "homepage": "https://startsole.github.io/covid-stories"
+  "homepage": "."
 }

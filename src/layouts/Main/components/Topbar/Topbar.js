@@ -139,7 +139,6 @@ const Topbar = props => {
 
   const landings = pages.landings;
   const supportedPages = pages.pages;
-  const account = pages.account;
 
   const MenuGroup = props => {
     const { item } = props;
@@ -187,64 +186,6 @@ const Topbar = props => {
     );
   };
 
-  const SupportedPages = () => {
-    const {
-      career,
-      helpCenter,
-      company,
-      contact,
-      blog,
-      portfolio,
-    } = supportedPages.children;
-    return (
-      <div className={classes.menu}>
-        <div className={classes.menuItem}>
-          <MenuGroup item={career} />
-          <MenuGroup item={helpCenter} />
-        </div>
-        <div className={classes.menuItem}>
-          <MenuGroup item={company} />
-          <MenuGroup item={contact} />
-        </div>
-        <div className={classes.menuItem}>
-          <MenuGroup item={blog} />
-          <MenuGroup item={portfolio} />
-        </div>
-      </div>
-    );
-  };
-
-  const AccountPages = () => {
-    const { settings, signup, signin, password, error } = account.children;
-    return (
-      <div className={classes.menu}>
-        <div className={classes.menuItem}>
-          <MenuGroup item={settings} />
-        </div>
-        <div className={classes.menuItem}>
-          <MenuGroup item={signup} />
-          <MenuGroup item={signin} />
-        </div>
-        <div className={classes.menuItem}>
-          <MenuGroup item={password} />
-          <MenuGroup item={error} />
-        </div>
-      </div>
-    );
-  };
-
-  const renderPages = id => {
-    if (id === 'landing-pages') {
-      return <LandingPages />;
-    }
-    if (id === 'supported-pages') {
-      return <SupportedPages />;
-    }
-    if (id === 'account') {
-      return <AccountPages />;
-    }
-  };
-
   return (
     <AppBar
       {...rest}
@@ -253,11 +194,11 @@ const Topbar = props => {
     >
       <Toolbar disableGutters className={classes.toolbar}>
         <div className={classes.logoContainer}>
-          <a href="/" title="thefront">
+          <a href="#" title="covid-stories">
             <Image
               className={classes.logoImage}
-              src="/images/logos/logo.svg"
-              alt="thefront"
+              src="/covid-stories/images/logos/logo.svg"
+              alt="covidstories"
               lazy={false}
             />
           </a>
@@ -265,59 +206,13 @@ const Topbar = props => {
         <div className={classes.flexGrow} />
         <Hidden smDown>
           <List className={classes.navigationContainer}>
-            {/*{[landings, supportedPages, account].map((page, i) => (*/}
-            {/*  <div key={page.id}>*/}
-            {/*    <ListItem*/}
-            {/*      aria-describedby={page.id}*/}
-            {/*      onClick={e => handleClick(e, page.id)}*/}
-            {/*      className={clsx(*/}
-            {/*        classes.listItem,*/}
-            {/*        openedPopoverId === page.id ? classes.listItemActive : '',*/}
-            {/*      )}*/}
-            {/*    >*/}
-            {/*      <Typography*/}
-            {/*        variant="body1"*/}
-            {/*        color="textSecondary"*/}
-            {/*        className={clsx(classes.listItemText, 'menu-item')}*/}
-            {/*      >*/}
-            {/*        {page.title}*/}
-            {/*      </Typography>*/}
-            {/*      <ListItemIcon className={classes.listItemIcon}>*/}
-            {/*        <ExpandMoreIcon*/}
-            {/*          className={*/}
-            {/*            openedPopoverId === page.id ? classes.expandOpen : ''*/}
-            {/*          }*/}
-            {/*          fontSize="small"*/}
-            {/*        />*/}
-            {/*      </ListItemIcon>*/}
-            {/*    </ListItem>*/}
-            {/*    <Popover*/}
-            {/*      elevation={1}*/}
-            {/*      id={page.id}*/}
-            {/*      open={openedPopoverId === page.id}*/}
-            {/*      anchorEl={anchorEl}*/}
-            {/*      onClose={handleClose}*/}
-            {/*      anchorOrigin={{*/}
-            {/*        vertical: 'bottom',*/}
-            {/*        horizontal: 'center',*/}
-            {/*      }}*/}
-            {/*      transformOrigin={{*/}
-            {/*        vertical: 'top',*/}
-            {/*        horizontal: 'center',*/}
-            {/*      }}*/}
-            {/*      classes={{ paper: classes.popover }}*/}
-            {/*    >*/}
-            {/*      <div>{renderPages(page.id)}</div>*/}
-            {/*    </Popover>*/}
-            {/*  </div>*/}
-            {/*))}*/}
             <ListItem className={classes.listItem}>
               <Typography
                 variant="body1"
                 color="textSecondary"
                 className={classes.listItemText}
                 component="a"
-                href="/search"
+                href="#search"
               >
                 Search
               </Typography>
@@ -328,7 +223,7 @@ const Topbar = props => {
                 color="textSecondary"
                 className={classes.listItemText}
                 component="a"
-                href="/map"
+                href="#map"
               >
                 Map
               </Typography>
@@ -339,7 +234,7 @@ const Topbar = props => {
                 variant="contained"
                 color="primary"
                 component="a"
-                href="/submit"
+                href="#submit"
               >
                 Submit
               </Button>

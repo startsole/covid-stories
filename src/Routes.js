@@ -55,8 +55,20 @@ import {
 const Routes = () => {
   return (
     <Switch>
-    <Route exact path="/" component={HomeView} />
-    <Route exact path="/search" component={BlogSearchView} />
+    {/*<Route exact path="/" component={HomeView} />*/}
+      <Redirect exact from="/" to="/home" />
+      <RouteWithLayout
+        component={HomeView}
+        exact
+        layout={MainLayout}
+        path="/home"
+      />
+      <RouteWithLayout
+        component={BlogSearchView}
+        exact
+        layout={MainLayout}
+        path="/search"
+      />
     </Switch>
     // <Switch>
     //   <Redirect exact from="/" to="/home" />
