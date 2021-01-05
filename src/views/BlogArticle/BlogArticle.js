@@ -51,12 +51,12 @@ const BlogArticle = () => {
           </Grid>
         </Grid>
       </Section>
-      <SectionAlternate className={classes.similarStoriesSection}>
-        <SimilarStories data={similarStories} />
-      </SectionAlternate>
-      <SectionAlternate className={classes.footerNewsletterSection}>
-        <FooterNewsletter />
-      </SectionAlternate>
+      {/*<SectionAlternate className={classes.similarStoriesSection}>*/}
+      {/*  <SimilarStories data={similarStories} />*/}
+      {/*</SectionAlternate>*/}
+      {/*<SectionAlternate className={classes.footerNewsletterSection}>*/}
+      {/*  <FooterNewsletter />*/}
+      {/*</SectionAlternate>*/}
     </div>
   );
 };

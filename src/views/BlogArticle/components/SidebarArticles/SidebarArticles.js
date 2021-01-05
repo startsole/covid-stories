@@ -124,7 +124,7 @@ const SidebarArticles = props => {
         gutterBottom
         className={classes.sectionTitle}
       >
-        Upcoming updates
+        Other Stories
       </Typography>
       <Grid container spacing={0}>
         {data.map((item, index) => (

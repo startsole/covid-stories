@@ -1,14 +1,14 @@
 export const sidebarArticles = [
   {
     cover: {
-      src: '/images/photos/blog/cover4.jpg',
-      srcSet: '/images/photos/blog/cover4.jpg 2x',
+      src: '/covid-stories/images/photos/blog/cover4.jpg',
+      srcSet: '/covid-stories/images/photos/blog/cover4.jpg 2x',
     },
     title: "LARQ | World's First Self-cleaning Water Bottle‎",
     author: {
       photo: {
-        src: '/images/photos/people/kate-segelson.jpg',
-        srcSet: '/images/photos/people/kate-segelson@2x.jpg 2x',
+        src: '/covid-stories/images/photos/people/kate-segelson.jpg',
+        srcSet: '/covid-stories/images/photos/people/kate-segelson@2x.jpg 2x',
       },
       name: 'Kate Segelson',
     },
@@ -17,14 +17,14 @@ export const sidebarArticles = [
   },
   {
     cover: {
-      src: '/images/photos/blog/cover3.jpg',
-      srcSet: '/images/photos/blog/cover3.jpg 2x',
+      src: '/covid-stories/images/photos/blog/cover3.jpg',
+      srcSet: '/covid-stories/images/photos/blog/cover3.jpg 2x',
     },
     title: 'NIKE Online Store launches the website‎',
     author: {
       photo: {
-        src: '/images/photos/people/jack-smith.jpg',
-        srcSet: '/images/photos/people/jack-smith@2x.jpg 2x',
+        src: '/covid-stories/images/photos/people/jack-smith.jpg',
+        srcSet: '/covid-stories/images/photos/people/jack-smith@2x.jpg 2x',
       },
       name: 'Jack Smith',
     },
@@ -33,14 +33,14 @@ export const sidebarArticles = [
   },
   {
     cover: {
-      src: '/images/photos/blog/cover2.jpg',
-      srcSet: '/images/photos/blog/cover2.jpg 2x',
+      src: '/covid-stories/images/photos/blog/cover2.jpg',
+      srcSet: '/covid-stories/images/photos/blog/cover2.jpg 2x',
     },
     title: 'Adidas will release your favourite shoes',
     author: {
       photo: {
-        src: '/images/photos/people/akachi-luccini.jpg',
-        srcSet: '/images/photos/people/akachi-luccini@2x.jpg 2x',
+        src: '/covid-stories/images/photos/people/akachi-luccini.jpg',
+        srcSet: '/covid-stories/images/photos/people/akachi-luccini@2x.jpg 2x',
       },
       name: 'Akachi Luccini',
     },
@@ -49,14 +49,14 @@ export const sidebarArticles = [
   },
   {
     cover: {
-      src: '/images/photos/blog/cover1.jpg',
-      srcSet: '/images/photos/blog/cover1.jpg 2x',
+      src: '/covid-stories/images/photos/blog/cover1.jpg',
+      srcSet: '/covid-stories/images/photos/blog/cover1.jpg 2x',
     },
     title: 'Simple approach to Australian cafe',
     author: {
       photo: {
-        src: '/images/photos/people/veronica-adams.jpg',
-        srcSet: '/images/photos/people/veronica-adams@2x.jpg 2x',
+        src: '/covid-stories/images/photos/people/veronica-adams.jpg',
+        srcSet: '/covid-stories/images/photos/people/veronica-adams@2x.jpg 2x',
       },
       name: 'Veronica Adams',
     },
@@ -68,16 +68,16 @@ export const sidebarArticles = [
 export const similarStories = [
   {
     cover: {
-      src: '/images/photos/blog/cover2.jpg',
-      srcSet: '/images/photos/blog/cover2.jpg 2x',
+      src: '/covid-stories/images/photos/blog/cover2.jpg',
+      srcSet: '/covid-stories/images/photos/blog/cover2.jpg 2x',
     },
     title: 'Adidas will release your favourite shoes',
     subtitle:
       'Get your favourite adidas shoes, clothing & accessories at the official website! adidas Training.',
     author: {
       photo: {
-        src: '/images/photos/people/akachi-luccini.jpg',
-        srcSet: '/images/photos/people/akachi-luccini@2x.jpg 2x',
+        src: '/covid-stories/images/photos/people/akachi-luccini.jpg',
+        srcSet: '/covid-stories/images/photos/people/akachi-luccini@2x.jpg 2x',
       },
       name: 'Akachi Luccini',
     },
@@ -86,16 +86,16 @@ export const similarStories = [
   },
   {
     cover: {
-      src: '/images/photos/blog/cover3.jpg',
-      srcSet: '/images/photos/blog/cover3.jpg 2x',
+      src: '/covid-stories/images/photos/blog/cover3.jpg',
+      srcSet: '/covid-stories/images/photos/blog/cover3.jpg 2x',
     },
     title: 'NIKE Online Store launches the website‎',
     subtitle:
       'Be Your Best Every Time With Nike Shoes And Clothing. Shop Online. The Official Website. Home Of Everything Nike. Shop The Latest Releases Today! Types: Shoes, Tops.',
     author: {
       photo: {
-        src: '/images/photos/people/jack-smith.jpg',
-        srcSet: '/images/photos/people/jack-smith@2x.jpg 2x',
+        src: '/covid-stories/images/photos/people/jack-smith.jpg',
+        srcSet: '/covid-stories/images/photos/people/jack-smith@2x.jpg 2x',
       },
       name: 'Jack Smith',
     },
@@ -104,16 +104,16 @@ export const similarStories = [
   },
   {
     cover: {
-      src: '/images/photos/blog/cover4.jpg',
-      srcSet: '/images/photos/blog/cover4.jpg 2x',
+      src: '/covid-stories/images/photos/blog/cover4.jpg',
+      srcSet: '/covid-stories/images/photos/blog/cover4.jpg 2x',
     },
     title: "LARQ | World's First Self-cleaning Water Bottle‎",
     subtitle:
       "A self-cleaning water bottle that'll help you reach your hydration goal. Neutralizes up to 99%* of harmful, odor-causing bacteria using UV-C light.",
     author: {
       photo: {
-        src: '/images/photos/people/kate-segelson.jpg',
-        srcSet: '/images/photos/people/kate-segelson@2x.jpg 2x',
+        src: '/covid-stories/images/photos/people/kate-segelson.jpg',
+        srcSet: '/covid-stories/images/photos/people/kate-segelson@2x.jpg 2x',
       },
       name: 'Kate Segelson',
     },
@@ -124,42 +124,45 @@ export const similarStories = [
 
 export const content = {
   headline:
-    'Barbecue party tips can help a host put together an extraordinary event for family and friends. Eating outdoors is a favorite pastime enjoyed by everyone and planning the event can help make it more memorable and stress-free for the host. Big or small, a barbecue party requires an adequate amount of planning and preparation to ensure that everything is laid out properly. It is advisable to plan the event around a theme in order to create a focal point for the barbecue party. This way, all aspects of the party such as the food, games and decorations can be fashioned around a central theme. Favorite themes for barbecue parties include a Hawaiian motif, nostalgic seventies get-together, or, if you are near the sea, opt for a beach bbq party!',
+    'There are many people who are scared of Covid-19. Millions around the world have it, are recovering from it, or are dying from it. Today, we are focusing on one person that lived to tell the tale of how she survived the pandemic of this generation. Her name is simply, Ms. Carlene.\n' +
+    '\tThe first thing I noticed as our video call with Ms. Carlene was beginning is how the staff at Sycamore Springs Assisted Living Center, the place where Ms. Carlene now calls home, handled things. I could see Jordan Bishop, the resident life coordinator, walking to Ms. Carlene\'s room, and an older man was in his doorway asking for lunch. Mr. Bishop jumped straight on it; making sure he got everything and relaying straight to someone over the radio to get it to him.',
   quote:
-    "Keep track of what's happening with your data, change permissions, against your data anywhere in the world.",
+    "I can't run on the treadmill now because of this pandemic. I also can't see my daughter, she can only come up to my window and talk.",
   text1:
-    'Barbecue party tips can help a host put together an extraordinary event for family and friends. Eating outdoors is a favorite pastime enjoyed by everyone and planning the event can help make it more memorable and stress-free for the host. Big or small, a barbecue party requires an adequate amount of planning and preparation to ensure that everything is laid out properly.',
+    'At the beginning of the pandemic, there were often problems with people not being able to keep in touch with their family members in these homes. Many extended care facilities across America have had issues with communication between their residents and their families. Some families never even knew their family members had Covid until they were already dead. Ms. Carlene says that Sycamore Springs did not have those issues. They battled the red tape to take care of their residents and make sure that they got the help they needed.',
   text2:
-    'Barbecue party tips can help a host put together an extraordinary event for family and friends. Eating outdoors is a favorite pastime enjoyed by everyone and planning the event can help make it more memorable and stress-free for the host. Big or small, a barbecue party requires an adequate amount of planning and preparation to ensure that everything is laid out properly.',
-  title: 'Adidas will release your favourite shoes',
+    'I learned that Ms. Carlene used to be a teacher at Hunter Elementary School in Elizabethton, TN. She even taught my current high school principal, Jon Minton. “He was a great student,” she recalls. Ms. Carlene lives in the assisted living facility just 2 blocks from my school, Elizabethton High. Despite being over 90 years old, Ms. Carlene used to work out every day until the Covid pandemic swept over the assisted living center. “I can\'t run on the treadmill now because of this pandemic. I also can\'t see my daughter, she can only come up to my window and talk.”',
+  text3:
+    'When Ms. Carlene contracted Covid and went to the hospital, she was in the Covid Unit at Johnson City Medical Center in Johnson City, TN for two weeks. She believes she got Covid because of her breathing problems. They hooked her up to many machines at the hospital to keep her healthy. The hospital was so full that they had to move people down into the basement, which is where she was. She says that despite being tucked away below ground, the staff was on top of everything. When she asked for anything, they got it for her. ',
+  title: 'Ms. Carlene',
   subtitle:
-    'Get your favourite Adidas shoes, clothing & accessories at the official website! Adidas Training.',
+    'A View of Covid from the Inside',
   author: {
     photo: {
-      src: '/images/photos/people/jack-smith.jpg',
-      srcSet: '/images/photos/people/jack-smith@2x.jpg 2x',
+      src: '/covid-stories/images/photos/people/jack-smith.jpg',
+      srcSet: '/covid-stories/images/photos/people/jack-smith@2x.jpg 2x',
     },
-    name: 'Jack Smith',
-    date: 'May 20, 2019',
+    name: 'Koby B',
+    date: 'December 12, 2020',
   },
   cover: {
-    src: '/images/photos/blog/cover2.jpg',
-    srcSet: '/images/photos/blog/cover2.jpg 2x',
+    src: '/covid-stories/images/photos/blog/cover6.jpg',
+    srcSet: '/covid-stories/images/photos/blog/cover6.jpg 2x',
   },
   images: [
     {
-      src: '/images/photos/blog/cover4.jpg',
-      srcSet: '/images/photos/blog/cover4.jpg 2x',
+      src: '/covid-stories/images/photos/blog/cover4.jpg',
+      srcSet: '/covid-stories/images/photos/blog/cover4.jpg 2x',
       cols: 2,
     },
     {
-      src: '/images/photos/blog/cover3.jpg',
-      srcSet: '/images/photos/blog/cover3.jpg 2x',
+      src: '/covid-stories/images/photos/blog/cover3.jpg',
+      srcSet: '/covid-stories/images/photos/blog/cover3.jpg 2x',
       cols: 1,
     },
     {
-      src: '/images/photos/blog/cover1.jpg',
-      srcSet: '/images/photos/blog/cover1.jpg 2x',
+      src: '/covid-stories/images/photos/blog/cover1.jpg',
+      srcSet: '/covid-stories/images/photos/blog/cover1.jpg 2x',
       cols: 1,
     },
   ],

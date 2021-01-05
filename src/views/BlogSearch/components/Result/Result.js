@@ -220,16 +220,16 @@ const Result = props => {
               />
             </Grid>
           ))}
-          <Grid item xs={12} container justify="center">
-            <Button
-              variant="contained"
-              color="primary"
-              size="large"
-              className={classes.button}
-            >
-              Load more
-            </Button>
-          </Grid>
+          {/*<Grid item xs={12} container justify="center">*/}
+          {/*  <Button*/}
+          {/*    variant="contained"*/}
+          {/*    color="primary"*/}
+          {/*    size="large"*/}
+          {/*    className={classes.button}*/}
+          {/*  >*/}
+          {/*    Load more*/}
+          {/*  </Button>*/}
+          {/*</Grid>*/}
         </Grid>
       </SectionAlternate>
     </div>

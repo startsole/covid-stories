@@ -25,9 +25,9 @@ const BlogSearch = () => {
   return (
     <div className={classes.root}>
       <Result data={result} />
-      <Section>
-        <Newsletter />
-      </Section>
+      {/*<Section>*/}
+      {/*  <Newsletter />*/}
+      {/*</Section>*/}
       <Divider />
     </div>
   );

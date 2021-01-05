@@ -94,6 +94,11 @@ const Content = props => {
           {data.text2}
         </Typography>
       </div>
+      <div className={classes.section}>
+        <Typography component="p" variant="h6" color="textPrimary">
+          {data.text3}
+        </Typography>
+      </div>
       <div>
         <IconButton className={classes.socialIcon}>
           <FacebookIcon />

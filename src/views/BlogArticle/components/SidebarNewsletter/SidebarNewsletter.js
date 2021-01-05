@@ -64,8 +64,8 @@ const Form = props => {
         <Image src="/images/illustrations/want-to-work.svg" />
       </div>
       <SectionHeader
-        title="Email newsletter"
-        subtitle="Subscribe to our Newsletter for new blog posts, tips & new photos"
+        title="Email List"
+        subtitle="Subscribe to our email list for updates & lesson plan ideas"
         titleProps={{
           variant: 'h4',
           color: 'textPrimary',
@@ -125,7 +125,7 @@ const Form = props => {
           </Grid>
           <Grid item container justify="center" xs={12}>
             <Typography variant="caption" color="textSecondary">
-              Subscribe to our Newsletter for new blog posts, tips & new photos.
+              Subscribe to our Email List for lesson plans, tips & other content.
             </Typography>
           </Grid>
         </Grid>
