@@ -16,6 +16,7 @@ import {
 } from '@material-ui/core';
 import { Icon, Image } from 'components/atoms';
 import { CardProduct, Section, SectionAlternate } from 'components/organisms';
+import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles(theme => ({
   root: {},
@@ -202,6 +203,7 @@ const Result = props => {
           {/*</Grid>*/}
           {data.map((item, index) => (
             <Grid item xs={12} sm={6} md={4} key={index} data-aos="fade-up">
+              <Link href="#blog-article">
               <CardProduct
                 withShadow
                 liftUp
@@ -218,6 +220,7 @@ const Result = props => {
                   />
                 }
               />
+              </Link>
             </Grid>
           ))}
           {/*<Grid item xs={12} container justify="center">*/}
