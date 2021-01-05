@@ -20,9 +20,9 @@ const Hero = props => {
       <SectionHeader
         title={
           <>
-            A modern design system
+            A place to share and discover
             <br />
-            for your new
+            stories of
             <br />
             <TypedText
               component="span"
@@ -31,13 +31,13 @@ const Hero = props => {
               className={classes.typed}
               typedProps={{
                 strings: [
-                  'e-commerce',
-                  'expo',
-                  'startup',
-                  'online course',
-                  'coworking space',
-                  'job listing',
-                  'and many more...',
+                  'hope',
+                  'loss',
+                  'sadness',
+                  'joy',
+                  'compassion',
+                  'loneliness',
+                  '... your experience',
                 ],
                 typeSpeed: 50,
                 loop: true,
@@ -45,7 +45,7 @@ const Hero = props => {
             />
           </>
         }
-        subtitle="TheFront will make your product look modern and professional while saving you precious time."
+        subtitle="COVID Stories is a project to help students share their experiences this pandemic"
         align="center"
         titleProps={{
           variant: 'h2',
@@ -62,20 +62,20 @@ const Hero = props => {
             color="primary"
             component="a"
             target="blank"
-            href="https://material-ui.com/store/items/the-front-landing-page/"
+            href="https://www.ecschools.net/1/Home"
           >
-            Buy Now
+            Elizabethton High School
           </Button>,
-          <Button
-            size="large"
-            variant="outlined"
-            color="primary"
-            component="a"
-            target="blank"
-            href="https://thefront-styleguide.maccarianagency.com/"
-          >
-            Documentation
-          </Button>,
+          // <Button
+          //   size="large"
+          //   variant="outlined"
+          //   color="primary"
+          //   component="a"
+          //   target="blank"
+          //   href="https://thefront-styleguide.maccarianagency.com/"
+          // >
+          //   Documentation
+          // </Button>,
         ]}
         data-aos="fade-up"
         disableGutter

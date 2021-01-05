@@ -16,6 +16,23 @@ export const result = [
       src: '/covid-stories/images/photos/blog/cover1.jpg',
       srcSet: '/covid-stories/images/photos/blog/cover1.jpg 2x',
     },
+    title: 'Ms. Carlene',
+    subtitle:
+      'A View of Covid from the Inside',
+    author: {
+      photo: {
+        src: '/covid-stories/images/photos/people/veronica-adams.jpg',
+        srcSet: '/covid-stories/images/photos/people/veronica-adams@2x.jpg 2x',
+      },
+      name: 'Kody B',
+    },
+    date: '12 Dec',
+  },
+  {
+    cover: {
+      src: '/covid-stories/images/photos/blog/cover1.jpg',
+      srcSet: '/covid-stories/images/photos/blog/cover1.jpg 2x',
+    },
     title: 'Microscopic Matter, Macroscopic Affect',
     subtitle:
       'How a tiny viral fragment smaller than a single cell changed my life forever.',

@@ -217,17 +217,17 @@ const Topbar = props => {
                 Search
               </Typography>
             </ListItem>
-            <ListItem className={classes.listItem}>
-              <Typography
-                variant="body1"
-                color="textSecondary"
-                className={classes.listItemText}
-                component="a"
-                href="#map"
-              >
-                Map
-              </Typography>
-            </ListItem>
+            {/*<ListItem className={classes.listItem}>*/}
+            {/*  <Typography*/}
+            {/*    variant="body1"*/}
+            {/*    color="textSecondary"*/}
+            {/*    className={classes.listItemText}*/}
+            {/*    component="a"*/}
+            {/*    href="#map"*/}
+            {/*  >*/}
+            {/*    Map*/}
+            {/*  </Typography>*/}
+            {/*</ListItem>*/}
             <ListItem className={classes.listItem}>
               <Button
                 size="large"

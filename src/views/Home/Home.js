@@ -17,17 +17,17 @@ const Home = () => {
       <Section>
         <Hero />
       </Section>
-      <SectionAlternate>
-        <Landings data={landings} />
-      </SectionAlternate>
-      <Divider />
-      <SectionAlternate>
-        <Pages data={pages} />
-      </SectionAlternate>
-      <Divider />
-      <SectionAlternate>
-        <Account data={account} />
-      </SectionAlternate>
+      {/*<SectionAlternate>*/}
+      {/*  <Landings data={landings} />*/}
+      {/*</SectionAlternate>*/}
+      {/*<Divider />*/}
+      {/*<SectionAlternate>*/}
+      {/*  <Pages data={pages} />*/}
+      {/*</SectionAlternate>*/}
+      {/*<Divider />*/}
+      {/*<SectionAlternate>*/}
+      {/*  <Account data={account} />*/}
+      {/*</SectionAlternate>*/}
     </div>
   );
 };

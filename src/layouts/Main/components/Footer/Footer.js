@@ -202,8 +202,8 @@ const Footer = props => {
                   <a href="/" title="thefront">
                     <Image
                       className={classes.logoImage}
-                      src="/images/logos/logo-negative.svg"
-                      alt="thefront"
+                      src="/covid-stories/images/logos/logo-negative.svg"
+                      alt="covid-stories"
                       lazy={false}
                     />
                   </a>
@@ -225,19 +225,19 @@ const Footer = props => {
               </ListItem>
             </List>
           </Grid>
-          <Grid item xs={12} md={10} className={classes.menuListContainer}>
-            <Grid container spacing={0}>
-              <Grid item className={classes.listItem}>
-                <LandingPages />
-              </Grid>
-              <Grid item className={classes.listItem}>
-                <SupportedPages />
-              </Grid>
-              <Grid item className={classes.listItem}>
-                <AccountPages />
-              </Grid>
-            </Grid>
-          </Grid>
+          {/*<Grid item xs={12} md={10} className={classes.menuListContainer}>*/}
+          {/*  <Grid container spacing={0}>*/}
+          {/*    <Grid item className={classes.listItem}>*/}
+          {/*      <LandingPages />*/}
+          {/*    </Grid>*/}
+          {/*    <Grid item className={classes.listItem}>*/}
+          {/*      <SupportedPages />*/}
+          {/*    </Grid>*/}
+          {/*    <Grid item className={classes.listItem}>*/}
+          {/*      <AccountPages />*/}
+          {/*    </Grid>*/}
+          {/*  </Grid>*/}
+          {/*</Grid>*/}
         </Grid>
       </div>
     </div>

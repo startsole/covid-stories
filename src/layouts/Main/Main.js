@@ -308,6 +308,8 @@ const Main = props => {
     },
   };
 
+  const pages2 = {};
+
   const [openSidebar, setOpenSidebar] = useState(false);
 
   const handleSidebarOpen = () => {
@@ -334,7 +336,7 @@ const Main = props => {
         pages={pages}
       />
       <main>{children}</main>
-      {/*<Footer pages={pages} />*/}
+      <Footer pages={pages} />
     </div>
   );
 };
