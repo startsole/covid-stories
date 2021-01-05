@@ -69,6 +69,12 @@ const Routes = () => {
         layout={MainLayout}
         path="/search"
       />
+      <RouteWithLayout
+        component={BlogArticleView}
+        exact
+        layout={MainLayout}
+        path="/blog-article"
+      />
     </Switch>
     // <Switch>
     //   <Redirect exact from="/" to="/home" />
