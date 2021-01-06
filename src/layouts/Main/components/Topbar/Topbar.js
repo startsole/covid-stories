@@ -234,7 +234,8 @@ const Topbar = props => {
                 variant="contained"
                 color="primary"
                 component="a"
-                href="#submit"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfglVIZFFQcf69Prge4h83d81tkiKZPXBi0iAdaKvwjZxWbVQ/viewform?usp=sf_link"
+                target={"_blank"}
               >
                 Submit
               </Button>
