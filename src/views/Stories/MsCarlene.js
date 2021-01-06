@@ -160,8 +160,8 @@ const StoryMsCarlene = () => {
               </div>
             <div className={classes.section}>
               <Image
-                src={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs.png'}
-                srcSet={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs.png 2x'}
+                src={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs.jpg'}
+                srcSet={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs.jpg 2x'}
                 className={classes.image}
                 lazyProps={{ width: '100%', height: '100%' }}
               />
@@ -193,15 +193,24 @@ const StoryMsCarlene = () => {
                 cols={2}
                 spacing={isMd ? 24 : 8}
               >
-                {content.images.map((item, index) => (
-                  <GridListTile key={index} cols={isMd ? item.cols : 2}>
+                {/*{content.images.map((item, index) => (*/}
+                  <GridListTile key={1} cols={isMd ? item.cols : 2}>
                     <Image
-                      {...item}
+                      src={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs-assisted-living.jpeg'}
+                      srcSet={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs-assisted-living.jpeg 2x'}
                       className={classes.image}
                       lazyProps={{ width: '100%', height: '100%' }}
                     />
                   </GridListTile>
-                ))}
+                  <GridListTile key={2} cols={isMd ? item.cols : 2}>
+                    <Image
+                      src={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs-bedroom.jpg'}
+                      srcSet={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs-bedroom.jpg 2x'}
+                      className={classes.image}
+                      lazyProps={{ width: '100%', height: '100%' }}
+                    />
+                  </GridListTile>
+                {/*))}*/}
               </GridList>
             </div>
             <div className={classes.section}>
