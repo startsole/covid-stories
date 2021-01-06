@@ -167,33 +167,33 @@ const Result = props => {
 
   return (
     <div className={clsx(classes.root, className)} {...rest}>
-      <Section className={classes.pagePaddingTop}>
-        <div className={classes.searchInputContainer} data-aos="fade-up">
-          <FormControl fullWidth variant="outlined">
-            <OutlinedInput
-              className={classes.input}
-              size="large"
-              startAdornment={
-                <InputAdornment position="start">
-                  <Icon
-                    fontIconClass="fas fa-search"
-                    fontIconColor={colors.blueGrey[900]}
-                  />
-                </InputAdornment>
-              }
-              placeholder="Search for stories"
-            />
-          </FormControl>
-          <Button
-            color="primary"
-            variant="contained"
-            size="large"
-            className={classes.searchButton}
-          >
-            Search
-          </Button>
-        </div>
-      </Section>
+      {/*<Section className={classes.pagePaddingTop}>*/}
+      {/*  <div className={classes.searchInputContainer} data-aos="fade-up">*/}
+      {/*    <FormControl fullWidth variant="outlined">*/}
+      {/*      <OutlinedInput*/}
+      {/*        className={classes.input}*/}
+      {/*        size="large"*/}
+      {/*        startAdornment={*/}
+      {/*          <InputAdornment position="start">*/}
+      {/*            <Icon*/}
+      {/*              fontIconClass="fas fa-search"*/}
+      {/*              fontIconColor={colors.blueGrey[900]}*/}
+      {/*            />*/}
+      {/*          </InputAdornment>*/}
+      {/*        }*/}
+      {/*        placeholder="Search for stories"*/}
+      {/*      />*/}
+      {/*    </FormControl>*/}
+      {/*    <Button*/}
+      {/*      color="primary"*/}
+      {/*      variant="contained"*/}
+      {/*      size="large"*/}
+      {/*      className={classes.searchButton}*/}
+      {/*    >*/}
+      {/*      Search*/}
+      {/*    </Button>*/}
+      {/*  </div>*/}
+      {/*</Section>*/}
       <SectionAlternate className={classes.sectionAlternate}>
         <Grid container spacing={isMd ? 4 : 2}>
           {/*<Grid item xs={12} container>*/}
@@ -203,7 +203,8 @@ const Result = props => {
           {/*</Grid>*/}
           {data.map((item, index) => (
             <Grid item xs={12} sm={6} md={4} key={index} data-aos="fade-up">
-              <Link href="#blog-article">
+              {/*<Link href="#blog-article">*/}
+              <Link href={item.url}>
               <CardProduct
                 withShadow
                 liftUp

@@ -45,7 +45,7 @@ const Hero = props => {
             />
           </>
         }
-        subtitle="COVID Stories is a project to help students share their experiences this pandemic"
+        subtitle="COVID Stories is a collection of student narratives from this pandemic"
         align="center"
         titleProps={{
           variant: 'h2',
@@ -61,10 +61,9 @@ const Hero = props => {
             variant="contained"
             color="primary"
             component="a"
-            target="blank"
-            href="https://www.ecschools.net/1/Home"
+            href="#stories"
           >
-            Elizabethton High School
+            Browse Stories
           </Button>,
           // <Button
           //   size="large"

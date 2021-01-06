@@ -212,9 +212,9 @@ const Topbar = props => {
                 color="textSecondary"
                 className={classes.listItemText}
                 component="a"
-                href="#search"
+                href="#stories"
               >
-                Search
+                Stories
               </Typography>
             </ListItem>
             {/*<ListItem className={classes.listItem}>*/}
