@@ -31,8 +31,8 @@ export const result = [
   },
   {
     cover: {
-      src: '/covid-stories/images/photos/blog/cover1.jpg',
-      srcSet: '/covid-stories/images/photos/blog/cover1.jpg 2x',
+      src: '/covid-stories/images/photos/blog/color1.png',
+      srcSet: '/covid-stories/images/photos/blog/color1.png 2x',
     },
     title: 'Florence Fetzer',
     subtitle:
@@ -49,8 +49,8 @@ export const result = [
   },
   {
     cover: {
-      src: '/covid-stories/images/photos/blog/cover2.jpg',
-      srcSet: '/covid-stories/images/photos/blog/cover2.jpg 2x',
+      src: '/covid-stories/images/photos/blog/color3.png',
+      srcSet: '/covid-stories/images/photos/blog/color3.jpg 2x',
     },
     title: 'Danny Lewis',
     subtitle:
@@ -67,8 +67,8 @@ export const result = [
   },
   {
     cover: {
-      src: '/covid-stories/images/photos/blog/cover3.jpg',
-      srcSet: '/covid-stories/images/photos/blog/cover3.jpg 2x',
+      src: '/covid-stories/images/photos/blog/color4.png',
+      srcSet: '/covid-stories/images/photos/blog/color4.png 2x',
     },
     title: 'Ciara White',
     subtitle:

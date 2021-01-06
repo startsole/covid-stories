@@ -60,8 +60,8 @@ const content = {
     date: 'December 12, 2020',
   },
   cover: {
-    src: '/covid-stories/images/photos/blog/ms-carlene/holding-hands.jpg',
-    srcSet: '/covid-stories/images/photos/blog/ms-carlene/holding-hands.jpg 2x',
+    src: '/covid-stories/images/photos/blog/color4.png',
+    srcSet: '/covid-stories/images/photos/blog/color4.png 2x',
   }
 };
 
