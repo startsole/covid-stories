@@ -6,6 +6,7 @@ import {Main as MainLayout} from './layouts';
 
 import {BlogArticle as BlogArticleView, BlogSearch as BlogSearchView, Home as HomeView,} from './views';
 import StoryMsCarlene from "./views/Stories/MsCarlene";
+import StoryFlorenceFetzer from "./views/Stories/FlorenceFetzer";
 
 const Routes = () => {
   return (
@@ -28,13 +29,19 @@ const Routes = () => {
         component={BlogArticleView}
         exact
         layout={MainLayout}
-        path="/ms-carlene2"
+        path="/sample-blog"
       />
       <RouteWithLayout
         component={StoryMsCarlene}
         exact
         layout={MainLayout}
         path="/ms-carlene"
+      />
+      <RouteWithLayout
+        component={StoryFlorenceFetzer}
+        exact
+        layout={MainLayout}
+        path="/florence-fetzer"
       />
     </Switch>
     // <Switch>

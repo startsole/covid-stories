@@ -21,10 +21,10 @@ export const result = [
       'A View of Covid from the Inside',
     author: {
       photo: {
-        src: '/covid-stories/images/photos/people/veronica-adams.jpg',
-        srcSet: '/covid-stories/images/photos/people/veronica-adams@2x.jpg 2x',
+        src: '/covid-stories/images/photos/people/jack-smith.jpg',
+        srcSet: '/covid-stories/images/photos/people/jack-smith@2x.jpg 2x',
       },
-      name: 'Kody B',
+      name: 'Kody',
     },
     date: '12 Dec',
     url: '#ms-carlene'
@@ -34,17 +34,18 @@ export const result = [
       src: '/covid-stories/images/photos/blog/cover1.jpg',
       srcSet: '/covid-stories/images/photos/blog/cover1.jpg 2x',
     },
-    title: 'Microscopic Matter, Macroscopic Affect',
+    title: 'Florence Fetzer',
     subtitle:
-      'How a tiny viral fragment smaller than a single cell changed my life forever.',
+      'What Has Been and What Is Yet to Come',
     author: {
       photo: {
         src: '/covid-stories/images/photos/people/veronica-adams.jpg',
         srcSet: '/covid-stories/images/photos/people/veronica-adams@2x.jpg 2x',
       },
-      name: 'Veronica Adams',
+      name: 'Morgan',
     },
-    date: '04 Aug',
+    date: '12 Dec',
+    url: '#florence-fetzer'
   },
   {
     cover: {
