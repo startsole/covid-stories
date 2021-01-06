@@ -8,6 +8,7 @@ import {BlogArticle as BlogArticleView, BlogSearch as BlogSearchView, Home as Ho
 import StoryMsCarlene from "./views/Stories/MsCarlene";
 import StoryFlorenceFetzer from "./views/Stories/FlorenceFetzer";
 import StoryDannyLewis from "./views/Stories/DannyLewis";
+import StoryCiaraWhite from "./views/Stories/CiaraWhite";
 
 const Routes = () => {
   return (
@@ -49,6 +50,12 @@ const Routes = () => {
         exact
         layout={MainLayout}
         path="/danny-lewis"
+      />
+      <RouteWithLayout
+        component={StoryCiaraWhite}
+        exact
+        layout={MainLayout}
+        path="/ciara-white"
       />
     </Switch>
     // <Switch>
