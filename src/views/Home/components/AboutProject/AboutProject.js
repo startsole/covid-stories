@@ -48,8 +48,8 @@ const AboutProject = props => {
         }
         rightSide={
           <Image
-            src="/images/photos/about/alex-campbell.jpg"
-            srcSet="/images/photos/about/alex-campbell.jpg 2x"
+            src="/covid-stories/images/photos/about/alex-campbell.jpg"
+            srcSet="/covid-stories/images/photos/about/alex-campbell.jpg 2x"
             alt="..."
             className={classes.image}
             lazyProps={{
