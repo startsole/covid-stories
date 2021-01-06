@@ -1,6 +1,6 @@
 import React from 'react';
 import {makeStyles, useTheme} from '@material-ui/core/styles';
-import {Grid, GridList, GridListTile, IconButton, Typography, useMediaQuery} from '@material-ui/core';
+import {colors, Grid, GridList, GridListTile, IconButton, Typography, useMediaQuery} from '@material-ui/core';
 import Section from "../../components/organisms/Section";
 import Content from "../BlogArticle/components/Content";
 import SidebarArticles from "../BlogArticle/components/SidebarArticles";
@@ -27,6 +27,25 @@ const useStyles = makeStyles(theme => ({
   },
   footerNewsletterSection: {
     background: theme.palette.primary.main,
+  },
+  section: {
+    marginBottom: theme.spacing(2),
+    [theme.breakpoints.up('md')]: {
+      marginBottom: theme.spacing(4),
+    },
+  },
+  image: {
+    objectFit: 'cover',
+    borderRadius: theme.spacing(1),
+  },
+  socialIcon: {
+    borderRadius: 0,
+    marginRight: theme.spacing(2),
+    color: theme.palette.text.primary,
+    background: colors.grey[200],
+    '&:last-child': {
+      marginRight: 0,
+    },
   },
 }));
 
