@@ -52,17 +52,18 @@ export const result = [
       src: '/covid-stories/images/photos/blog/cover2.jpg',
       srcSet: '/covid-stories/images/photos/blog/cover2.jpg 2x',
     },
-    title: 'The Last Dance',
+    title: 'Danny Lewis',
     subtitle:
-      'My last memory before the world changed - a packed dance club surrounded by all my friends.  Little did I know it would be my last chance to see them for months.',
+      'A Doctor’s Perspective On Surviving Covid-19',
     author: {
       photo: {
         src: '/covid-stories/images/photos/people/akachi-luccini.jpg',
         srcSet: '/covid-stories/images/photos/people/akachi-luccini@2x.jpg 2x',
       },
-      name: 'Akachi Luccini',
+      name: 'Kaitlyn',
     },
-    date: '04 Aug',
+    date: '12 Dec',
+    url: '#danny-lewis'
   },
   {
     cover: {
