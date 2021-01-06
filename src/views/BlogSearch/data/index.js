@@ -13,8 +13,8 @@ export const breadcrumb = [
 export const result = [
   {
     cover: {
-      src: '/covid-stories/images/photos/blog/cover1.jpg',
-      srcSet: '/covid-stories/images/photos/blog/cover1.jpg 2x',
+      src: '/covid-stories/images/photos/blog/ms-carlene/holding-hands.jpg',
+      srcSet: '/covid-stories/images/photos/blog/ms-carlene/holding-hands.jpg 2x',
     },
     title: 'Ms. Carlene',
     subtitle:

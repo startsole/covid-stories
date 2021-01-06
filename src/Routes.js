@@ -5,6 +5,7 @@ import {RouteWithLayout} from './common';
 import {Main as MainLayout} from './layouts';
 
 import {BlogArticle as BlogArticleView, BlogSearch as BlogSearchView, Home as HomeView,} from './views';
+import StoryMsCarlene from "./views/Stories/MsCarlene";
 
 const Routes = () => {
   return (
@@ -25,6 +26,12 @@ const Routes = () => {
       />
       <RouteWithLayout
         component={BlogArticleView}
+        exact
+        layout={MainLayout}
+        path="/ms-carlene2"
+      />
+      <RouteWithLayout
+        component={StoryMsCarlene}
         exact
         layout={MainLayout}
         path="/ms-carlene"
