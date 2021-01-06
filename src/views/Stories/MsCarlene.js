@@ -12,6 +12,7 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import PinterestIcon from "@material-ui/icons/Pinterest";
+import Box from "@material-ui/core/Box";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -172,11 +173,13 @@ const StoryMsCarlene = () => {
               </Typography>
             </div>
             {/*quote*/}
-            <div className={classes.section}>
-              <Typography component="p" variant="h4" color="primary" align="center" gutterBottom={true}>
-                "I can't run on the treadmill now because of this pandemic. I also can't see my daughter, she can only come up to my window and talk."
-              </Typography>
-            </div>
+            <Box mt={6} mb={6}>
+              <div className={classes.section}>
+                <Typography component="p" variant="h4" color="primary" align="center" gutterBottom={true}>
+                  "I can't run on the treadmill now because of this pandemic. I also can't see my daughter, she can only come up to my window and talk."
+                </Typography>
+              </div>
+            </Box>
             <div className={classes.section}>
               <Typography component="p" variant="h6" color="textPrimary" gutterBottom={true}>
                 At the beginning of the pandemic, there were often problems with people not being able to keep in touch with their family members in these homes. Many extended care facilities across America have had issues with communication between their residents and their families. Some families never even knew their family members had Covid until they were already dead. Ms. Carlene says that Sycamore Springs did not have those issues. They battled the red tape to take care of their residents and make sure that they got the help they needed.
@@ -194,7 +197,7 @@ const StoryMsCarlene = () => {
                 spacing={isMd ? 24 : 8}
               >
                 {/*{content.images.map((item, index) => (*/}
-                  <GridListTile key={1} cols={isMd ? item.cols : 2}>
+                  <GridListTile key={1} cols={isMd ? 1 : 2}>
                     <Image
                       src={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs-assisted-living.jpeg'}
                       srcSet={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs-assisted-living.jpeg 2x'}
@@ -202,7 +205,7 @@ const StoryMsCarlene = () => {
                       lazyProps={{ width: '100%', height: '100%' }}
                     />
                   </GridListTile>
-                  <GridListTile key={2} cols={isMd ? item.cols : 2}>
+                  <GridListTile key={2} cols={isMd ? 1 : 2}>
                     <Image
                       src={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs-bedroom.jpg'}
                       srcSet={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs-bedroom.jpg 2x'}
