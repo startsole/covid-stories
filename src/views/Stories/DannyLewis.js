@@ -68,66 +68,53 @@ const content = {
 const sidebarArticles = [
   {
     cover: {
-      src: '/covid-stories/images/photos/blog/cover4.jpg',
-      srcSet: '/covid-stories/images/photos/blog/cover4.jpg 2x',
+      src: '/covid-stories/images/photos/blog/ms-carlene/holding-hands.jpg',
+      srcSet: '/covid-stories/images/photos/blog/ms-carlene/holding-hands.jpg 2x',
     },
-    title: "LARQ | World's First Self-cleaning Water Bottle‎",
-    author: {
-      photo: {
-        src: '/covid-stories/images/photos/people/kate-segelson.jpg',
-        srcSet: '/covid-stories/images/photos/people/kate-segelson@2x.jpg 2x',
-      },
-      name: 'Kate Segelson',
-    },
-    date: '04 Aug',
-    tags: ['larq', 'bottle', 'shop', 'drinks', 'eco', 'self washing'],
-  },
-  {
-    cover: {
-      src: '/covid-stories/images/photos/blog/cover3.jpg',
-      srcSet: '/covid-stories/images/photos/blog/cover3.jpg 2x',
-    },
-    title: 'NIKE Online Store launches the website‎',
+    title: "Ms. Carlene",
     author: {
       photo: {
         src: '/covid-stories/images/photos/people/jack-smith.jpg',
         srcSet: '/covid-stories/images/photos/people/jack-smith@2x.jpg 2x',
       },
-      name: 'Jack Smith',
+      name: 'Kody',
     },
-    date: '04 Aug',
-    tags: ['nike', 'sport', 'shop', 'training'],
+    date: '12 Dec',
+    tags: ['COVID', 'elderly', 'sample', 'dummy', 'etc', 'something'],
+    url: '#ms-carlene'
   },
   {
     cover: {
-      src: '/covid-stories/images/photos/blog/cover2.jpg',
-      srcSet: '/covid-stories/images/photos/blog/cover2.jpg 2x',
+      src: '/covid-stories/images/photos/blog/color1.png',
+      srcSet: '/covid-stories/images/photos/blog/color1.png 2x',
     },
-    title: 'Adidas will release your favourite shoes',
-    author: {
-      photo: {
-        src: '/covid-stories/images/photos/people/akachi-luccini.jpg',
-        srcSet: '/covid-stories/images/photos/people/akachi-luccini@2x.jpg 2x',
-      },
-      name: 'Akachi Luccini',
-    },
-    date: '04 Aug',
-    tags: ['adidas', 'sport', 'shop', 'training'],
-  },
-  {
-    cover: {
-      src: '/covid-stories/images/photos/blog/cover1.jpg',
-      srcSet: '/covid-stories/images/photos/blog/cover1.jpg 2x',
-    },
-    title: 'Simple approach to Australian cafe',
+    title: 'Florence Fetzer',
     author: {
       photo: {
         src: '/covid-stories/images/photos/people/veronica-adams.jpg',
         srcSet: '/covid-stories/images/photos/people/veronica-adams@2x.jpg 2x',
       },
-      name: 'Veronica Adams',
+      name: 'Morgan',
+    },
+    date: '12 Dec',
+    url: '#florence-fetzer',
+    tags: ['nike', 'sport', 'shop', 'training'],
+  },
+  {
+    cover: {
+      src: '/covid-stories/images/photos/blog/color4.png',
+      srcSet: '/covid-stories/images/photos/blog/color4.png 2x',
+    },
+    title: 'Ciara White',
+    author: {
+      photo: {
+        src: '/covid-stories/images/photos/people/jack-smith.jpg',
+        srcSet: '/covid-stories/images/photos/people/jack-smith@2x.jpg 2x',
+      },
+      name: 'Elijah',
     },
     date: '04 Aug',
+    url: '#ciara-white',
     tags: ['coffee', 'cups', 'morning coffee', 'breakfast'],
   },
 ];
@@ -230,7 +217,7 @@ const StoryDannyLewis = () => {
           </Grid>
           <Grid item xs={12} md={4}>
             <SidebarArticles data={sidebarArticles}/>
-            <SidebarNewsletter className={classes.sidebarNewsletter}/>
+            {/*<SidebarNewsletter className={classes.sidebarNewsletter}/>*/}
           </Grid>
         </Grid>
       </Section>

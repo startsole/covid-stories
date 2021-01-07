@@ -5,6 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { colors, Typography, Grid } from '@material-ui/core';
 import { Image } from 'components/atoms';
 import { CardProduct } from 'components/organisms';
+import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -88,18 +89,18 @@ const SidebarArticles = props => {
 
   const BlogContent = props => (
     <div className={classes.blogContent}>
-      <div className={classes.tags}>
-        {props.tags.map((item, index) => (
-          <Typography
-            variant="caption"
-            color="primary"
-            className={classes.tag}
-            key={index}
-          >
-            {item}
-          </Typography>
-        ))}
-      </div>
+      {/*<div className={classes.tags}>*/}
+      {/*  {props.tags.map((item, index) => (*/}
+      {/*    <Typography*/}
+      {/*      variant="caption"*/}
+      {/*      color="primary"*/}
+      {/*      className={classes.tag}*/}
+      {/*      key={index}*/}
+      {/*    >*/}
+      {/*      {item}*/}
+      {/*    </Typography>*/}
+      {/*  ))}*/}
+      {/*</div>*/}
       <Typography
         variant="body2"
         color="textPrimary"
@@ -135,6 +136,7 @@ const SidebarArticles = props => {
             data-aos="fade-up"
             className={classes.gridItem}
           >
+            <Link href={item.url}>
             <CardProduct
               className={classes.cardProduct}
               mediaContent={
@@ -150,6 +152,7 @@ const SidebarArticles = props => {
                 />
               }
             />
+            </Link>
           </Grid>
         ))}
       </Grid>
