@@ -40,19 +40,19 @@ const About = () => {
       <Section>
         <Story />
       </Section>
-      <Section className={classes.sectionNoPaddingTop}>
-        <WhoWeAre />
-      </Section>
-      <Section className={classes.sectionNoPaddingTop}>
-        <Team data={team} />
-      </Section>
-      <SectionAlternate className={classes.sectionPartners}>
-        <Partners data={companies} />
-      </SectionAlternate>
-      <Contact data={mapData} />
-      <SectionAlternate>
-        <Gallery data={gallery} />
-      </SectionAlternate>
+      {/*<Section className={classes.sectionNoPaddingTop}>*/}
+      {/*  <WhoWeAre />*/}
+      {/*</Section>*/}
+      {/*<Section className={classes.sectionNoPaddingTop}>*/}
+      {/*  <Team data={team} />*/}
+      {/*</Section>*/}
+      {/*<SectionAlternate className={classes.sectionPartners}>*/}
+      {/*  <Partners data={companies} />*/}
+      {/*</SectionAlternate>*/}
+      {/*<Contact data={mapData} />*/}
+      {/*<SectionAlternate>*/}
+      {/*  <Gallery data={gallery} />*/}
+      {/*</SectionAlternate>*/}
     </div>
   );
 };

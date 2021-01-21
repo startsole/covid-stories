@@ -216,6 +216,15 @@ const Topbar = props => {
               >
                 Stories
               </Typography>
+              <Typography
+                variant="body1"
+                color="textSecondary"
+                className={classes.listItemText}
+                component="a"
+                href="#teachers"
+              >
+                For Teachers
+              </Typography>
             </ListItem>
             {/*<ListItem className={classes.listItem}>*/}
             {/*  <Typography*/}

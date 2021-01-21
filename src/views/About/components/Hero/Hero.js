@@ -43,8 +43,8 @@ const Hero = props => {
   return (
     <div className={clsx(classes.root, className)} {...rest}>
       <Image
-        src="/images/photos/about/hero-image.png"
-        srcSet="/images/photos/about/hero-image.png 2x"
+        src="/covid-stories/images/photos/teachers/cover.png"
+        srcSet="/covid-stories/images/photos/teachers/cover.png 2x"
         alt="About"
         className={classes.image}
         lazyProps={{
@@ -54,8 +54,8 @@ const Hero = props => {
       />
       <Section className={classes.section}>
         <SectionHeader
-          title="About us"
-          subtitle="We are founded by a leading academic and researcher in the field of Industrial Systems Engineering."
+          title="A big title"
+          subtitle="subtitle text goes here.  something about a sentence long that's snappy"
           align="left"
           data-aos="fade-up"
           disableGutter
