@@ -98,7 +98,7 @@ const HeroShaped = props => {
         <div className={clsx('hero-shaped__right-side', classes.heroRightSide)}>
           <div className={clsx('hero-shaped__shape', classes.shapeContainer)}>
             <img
-              src="/images/shapes/shape-fluid.svg"
+              src="/covid-stories/images/shapes/shape-fluid.svg"
               className={clsx('hero-shaped__shape-image', classes.shape)}
               alt=""
             />
