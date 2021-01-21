@@ -35,10 +35,10 @@ const AboutProject = props => {
                   Share your Story!
                 </span>
               }
-              subtitle="We'd love to see your story! We've provided all the documents you need to help run your own COVID Stories unit, check the link below. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              subtitle="Teaching and learning during a pandemic is no easy task, as we all learned during Covid-19. There were many challenges, but my students and I decided to commit to documenting the stories of local people affected by the pandemic as it happened. It was a small, but important snapshot in helping to understand the dizzying events that engulfed the world. I hope you enjoy the results of the students’ efforts, and even consider adding some of your own."
               ctaGroup={[
                 <Button variant="contained" color="primary" size="large" target={"_blank"} href={"https://drive.google.com/drive/folders/1ddIkHdkORbvb11LR2rpyXmKTo6tg83bh?usp=sharing"}>
-                  Download Materials
+                  Download Lesson Materials
                 </Button>,
               ]}
               align="left"
