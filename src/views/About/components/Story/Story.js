@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-import {useMediaQuery, Grid, Typography} from '@material-ui/core';
+import {useMediaQuery, Grid, Typography, Button} from '@material-ui/core';
 import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
 
@@ -96,6 +96,17 @@ const Story = props => {
               The stories that my students completed are just the beginning. Everyone has been impacted by this disease, and their stories add to the historical understanding of these times. I hope others will come with me on this journey to catalogue these life events by helping their own students with a similar project. There would be nothing more satisfying than to see my students’ successes, despite the struggles, act as a seed that grows into something even greater. I can’t promise the road will be easy, but I can promise that many of those bumps along the way will fade as you consider the monumental work that your students are able to accomplish.
             </Typography>
           </div>
+        </Grid>
+        <Grid
+          item
+          container
+          alignItems="center"
+          xs={12}
+          data-aos={'fade-up'}
+          >
+          <Button variant="contained" color="primary" size="large" target={"_blank"} href={"https://drive.google.com/drive/folders/1ddIkHdkORbvb11LR2rpyXmKTo6tg83bh?usp=sharing"}>
+            Download Lesson Materials
+          </Button>
         </Grid>
         {/*<Grid*/}
         {/*  item*/}
