@@ -200,6 +200,7 @@ const StoryMsCarlene = () => {
                 cols={2}
                 spacing={isMd ? 24 : 8}
               >
+                
                 <GridListTile key={1} cols={isMd ? 1 : 2}>
                   <Image
                     src={'/covid-stories/images/photos/blog/ms-carlene/carlene-4.jpg'}
