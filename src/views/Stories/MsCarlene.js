@@ -202,16 +202,16 @@ const StoryMsCarlene = () => {
               >
                 <GridListTile key={1} cols={isMd ? 1 : 2}>
                   <Image
-                    src={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs-assisted-living.jpeg'}
-                    srcSet={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs-assisted-living.jpeg 2x'}
+                    src={'/covid-stories/images/photos/blog/ms-carlene/carlene-1.png'}
+                    srcSet={'/covid-stories/images/photos/blog/ms-carlene/carlene-1.png 2x'}
                     className={classes.image}
                     lazyProps={{width: '100%', height: '100%'}}
                   />
                 </GridListTile>
                 <GridListTile key={2} cols={isMd ? 1 : 2}>
                   <Image
-                    src={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs-bedroom.jpg'}
-                    srcSet={'/covid-stories/images/photos/blog/ms-carlene/sycamore-springs-bedroom.jpg 2x'}
+                    src={'/covid-stories/images/photos/blog/ms-carlene/carlene-3.png'}
+                    srcSet={'/covid-stories/images/photos/blog/ms-carlene/carlene-3.png 2x'}
                     className={classes.image}
                     lazyProps={{width: '100%', height: '100%'}}
                   />
