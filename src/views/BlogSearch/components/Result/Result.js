@@ -201,6 +201,7 @@ const Result = props => {
           {/*    85 Result Found*/}
           {/*  </Typography>*/}
           {/*</Grid>*/}
+          
           {data.map((item, index) => (
             <Grid item xs={12} sm={6} md={4} key={index} data-aos="fade-up">
               {/*<Link href="#blog-article">*/}
