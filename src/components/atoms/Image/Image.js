@@ -27,7 +27,6 @@ const Image = props => {
   const classes = useStyles();
   if (lazy) {
     return (
-      <div>
       <LazyLoadImage
         className={clsx('image', classes.root, classes.dBlock, className)}
         alt={alt}
@@ -36,14 +35,12 @@ const Image = props => {
         effect="opacity"
         {...lazyProps}
         {...rest}
+        /*{alt !=='...' ? <Typography variant={'caption'}>{alt}</Typography> : <></>}*/
       />
-        {/*{alt !=='...' ? <Typography variant={'caption'}>{alt}</Typography> : <></>}*/}
-      </div>
     );
   }
 
   return (
-    <div>
     <img
       className={clsx('image', classes.root, className)}
       alt={alt}
@@ -51,8 +48,6 @@ const Image = props => {
       srcSet={srcSet}
       {...rest}
     />
-      {/*{alt !=='...' ? <Typography variant={'caption'}>{alt}</Typography> : <></>}*/}
-    </div>
   );
 };
 
