@@ -150,6 +150,36 @@ const StoryFlorenceFetzer = () => {
                           </Typography>
             </div>
             <div className={classes.section}>
+              <GridList
+                cellHeight={isMd ? 360 : 260}
+                cols={2}
+                spacing={isMd ? 24 : 8}
+              >
+
+                <GridListTile key={1} cols={isMd ? 1 : 2}>
+                  <div>
+                    <Image
+                      src={'/covid-stories/images/photos/blog/florence-fetzer/florence-1.png'}
+                      srcSet={'/covid-stories/images/photos/blog/florence-fetzer/florence-1.png 2x'}
+                      className={classes.image}
+                      lazyProps={{width: '100%', height: '100%'}}
+                    />
+                    <Typography component="p" variant="caption" color="textPrimary" gutterBottom={true}>
+                      
+                    </Typography>
+                  </div>
+                </GridListTile>
+                <GridListTile key={2} cols={isMd ? 1 : 2}>
+                  <Image
+                    src={'/covid-stories/images/photos/blog/florence-fetzer/florence-2.png'}
+                    srcSet={'/covid-stories/images/photos/blog/florence-fetzer/florence-2.png 2x'}
+                    className={classes.image}
+                    lazyProps={{width: '100%', height: '100%'}}
+                  />
+                </GridListTile>
+              </GridList>
+            </div>
+            <div className={classes.section}>
                           <Typography component="p" variant="h6" color="textPrimary" gutterBottom={true}>
                             COVID-19 symptoms can have an incubation period of up to two weeks. This disease causes respiratory illness and various other symptoms which can often vary by person but include coughing, intense headaches, fever, difficulty breathing, fever, digestive ailments, weakness, and so many more. About 16 percent of those who contract COVID-19 become seriously ill. The elusive nature of this virus has made it extremely difficult for people to know how to properly contain it. As a result, the virus has now spread like wildfire, and much of that early devastation was felt in extended care facilities.
                           </Typography>
