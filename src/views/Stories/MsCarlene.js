@@ -206,8 +206,8 @@ const StoryMsCarlene = () => {
                     srcSet={'/covid-stories/images/photos/blog/ms-carlene/carlene-4.jpg 2x'}
                     className={classes.image}
                     lazyProps={{width: '100%', height: '100%'}}
-                    alt={'Ms. Carlene with the Elizabethton High School principal Jon Minton, one of her former students'}
                   />
+                  <Typography variant={'caption'}>Ms. Carlene with the Elizabethton High School principal Jon Minton, one of her former students</Typography>
                 </GridListTile>
                 <GridListTile key={2} cols={isMd ? 1 : 2}>
                   <Image
