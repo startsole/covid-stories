@@ -37,7 +37,7 @@ const Image = props => {
         {...lazyProps}
         {...rest}
       />
-        {alt !=='...' ? <Typography variant={'caption'}>{alt}</Typography> : <></>}
+        {/*{alt !=='...' ? <Typography variant={'caption'}>{alt}</Typography> : <></>}*/}
       </div>
     );
   }
@@ -51,7 +51,7 @@ const Image = props => {
       srcSet={srcSet}
       {...rest}
     />
-      {alt !=='...' ? <Typography variant={'caption'}>{alt}</Typography> : <></>}
+      {/*{alt !=='...' ? <Typography variant={'caption'}>{alt}</Typography> : <></>}*/}
     </div>
   );
 };
