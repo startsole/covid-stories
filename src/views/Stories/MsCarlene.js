@@ -202,6 +202,7 @@ const StoryMsCarlene = () => {
               >
 
                 <GridListTile key={1} cols={isMd ? 1 : 2}>
+                  <div>
                   <Image
                     src={'/covid-stories/images/photos/blog/ms-carlene/carlene-4.jpg'}
                     srcSet={'/covid-stories/images/photos/blog/ms-carlene/carlene-4.jpg 2x'}
@@ -211,6 +212,7 @@ const StoryMsCarlene = () => {
                   <Typography component="p" variant="caption" color="textPrimary" gutterBottom={true}>
                     Ms. Carlene with the Elizabethton High School principal Jon Minton, one of her former students
                   </Typography>
+                  </div>
                 </GridListTile>
                 <GridListTile key={2} cols={isMd ? 1 : 2}>
                   <Image
