@@ -200,7 +200,7 @@ const StoryMsCarlene = () => {
                 cols={2}
                 spacing={isMd ? 24 : 8}
               >
-                
+
                 <GridListTile key={1} cols={isMd ? 1 : 2}>
                   <Image
                     src={'/covid-stories/images/photos/blog/ms-carlene/carlene-4.jpg'}
@@ -208,7 +208,9 @@ const StoryMsCarlene = () => {
                     className={classes.image}
                     lazyProps={{width: '100%', height: '100%'}}
                   />
-                  <Typography variant={'caption'}>Ms. Carlene with the Elizabethton High School principal Jon Minton, one of her former students</Typography>
+                  <Typography component="p" variant="caption" color="textPrimary" gutterBottom={true}>
+                    Ms. Carlene with the Elizabethton High School principal Jon Minton, one of her former students
+                  </Typography>
                 </GridListTile>
                 <GridListTile key={2} cols={isMd ? 1 : 2}>
                   <Image
