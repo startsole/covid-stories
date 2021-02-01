@@ -202,18 +202,19 @@ const StoryMsCarlene = () => {
               >
                 <GridListTile key={1} cols={isMd ? 1 : 2}>
                   <Image
-                    src={'/covid-stories/images/photos/blog/ms-carlene/carlene-1.png'}
-                    srcSet={'/covid-stories/images/photos/blog/ms-carlene/carlene-1.png 2x'}
+                    src={'/covid-stories/images/photos/blog/ms-carlene/carlene-4.png'}
+                    srcSet={'/covid-stories/images/photos/blog/ms-carlene/carlene-4.png 2x'}
                     className={classes.image}
                     lazyProps={{width: '100%', height: '100%'}}
                   />
                 </GridListTile>
                 <GridListTile key={2} cols={isMd ? 1 : 2}>
                   <Image
-                    src={'/covid-stories/images/photos/blog/ms-carlene/carlene-3.png'}
-                    srcSet={'/covid-stories/images/photos/blog/ms-carlene/carlene-3.png 2x'}
+                    src={'/covid-stories/images/photos/blog/ms-carlene/carlene-2.png'}
+                    srcSet={'/covid-stories/images/photos/blog/ms-carlene/carlene-2.png 2x'}
                     className={classes.image}
                     lazyProps={{width: '100%', height: '100%'}}
+                    alt={'Ms. Carlene with the Elizabethton High School principal Jon Minton, one of her former students'}
                   />
                 </GridListTile>
               </GridList>
