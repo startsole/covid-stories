@@ -198,7 +198,6 @@ const Topbar = props => {
             <Image
               className={classes.logoImage}
               src="/covid-stories/images/logos/logo.svg"
-              alt="covidstories"
               lazy={false}
             />
           </a>
