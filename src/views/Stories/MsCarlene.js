@@ -215,6 +215,7 @@ const StoryMsCarlene = () => {
                     srcSet={'/covid-stories/images/photos/blog/ms-carlene/carlene-2.png 2x'}
                     className={classes.image}
                     lazyProps={{width: '100%', height: '100%'}}
+                    alt={'Hunter Elementary School where Carlene taught'}
                   />
                 </GridListTile>
               </GridList>
