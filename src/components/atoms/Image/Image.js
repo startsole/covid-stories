@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/opacity.css';
+import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -26,6 +27,7 @@ const Image = props => {
   const classes = useStyles();
   if (lazy) {
     return (
+      <div>
       <LazyLoadImage
         className={clsx('image', classes.root, classes.dBlock, className)}
         alt={alt}
@@ -35,10 +37,13 @@ const Image = props => {
         {...lazyProps}
         {...rest}
       />
+        {alt !=='...' ? <Typography variant={'caption'}>{alt}</Typography> : <></>}
+      </div>
     );
   }
 
   return (
+    <div>
     <img
       className={clsx('image', classes.root, className)}
       alt={alt}
@@ -46,6 +51,8 @@ const Image = props => {
       srcSet={srcSet}
       {...rest}
     />
+      {alt !=='...' ? <Typography variant={'caption'}>{alt}</Typography> : <></>}
+    </div>
   );
 };
 
