@@ -74,8 +74,8 @@ const sidebarArticles = [
     title: "Ms. Carlene",
     author: {
       photo: {
-        src: '/covid-stories/images/photos/people/jack-smith.jpg',
-        srcSet: '/covid-stories/images/photos/people/jack-smith@2x.jpg 2x',
+        src: '/covid-stories/images/photos/blog/ms-carlene/carlene-4.jpg',
+        srcSet: '/covid-stories/images/photos/blog/ms-carlene/carlene-4.jpg 2x',
       },
       name: 'Kody',
     },
