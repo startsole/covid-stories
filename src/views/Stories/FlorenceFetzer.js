@@ -85,8 +85,8 @@ const sidebarArticles = [
   },
   {
     cover: {
-      src: '/covid-stories/images/photos/blog/color3.png',
-      srcSet: '/covid-stories/images/photos/blog/color3.jpg 2x',
+      src: '/covid-stories/images/photos/blog/daniel-lewis/daniel-lewis-2.png',
+      srcSet: '/covid-stories/images/photos/blog/daniel-lewis/daniel-lewis-2.png 2x',
     },
     title: 'Danny Lewis',
     author: {

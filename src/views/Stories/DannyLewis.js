@@ -60,8 +60,8 @@ const content = {
     date: 'December 12, 2020',
   },
   cover: {
-    src: '/covid-stories/images/photos/blog/color3.png',
-    srcSet: '/covid-stories/images/photos/blog/color3.png 2x',
+    src: '/covid-stories/images/photos/blog/daniel-lewis/daniel-lewis-3.png',
+    srcSet: '/covid-stories/images/photos/blog/daniel-lewis/daniel-lewis-3.png 2x',
   }
 };
 
