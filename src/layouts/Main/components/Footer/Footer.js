@@ -209,20 +209,20 @@ const Footer = props => {
                   </a>
                 </div>
               </ListItem>
-              <ListItem disableGutters>
-                <IconButton className={classes.socialIcon}>
-                  <FacebookIcon className={classes.icon} />
-                </IconButton>
-                <IconButton className={classes.socialIcon}>
-                  <InstagramIcon className={classes.icon} />
-                </IconButton>
-                <IconButton className={classes.socialIcon}>
-                  <TwitterIcon className={classes.icon} />
-                </IconButton>
-                <IconButton className={classes.socialIcon}>
-                  <PinterestIcon className={classes.icon} />
-                </IconButton>
-              </ListItem>
+              {/*<ListItem disableGutters>*/}
+              {/*  <IconButton className={classes.socialIcon}>*/}
+              {/*    <FacebookIcon className={classes.icon} />*/}
+              {/*  </IconButton>*/}
+              {/*  <IconButton className={classes.socialIcon}>*/}
+              {/*    <InstagramIcon className={classes.icon} />*/}
+              {/*  </IconButton>*/}
+              {/*  <IconButton className={classes.socialIcon}>*/}
+              {/*    <TwitterIcon className={classes.icon} />*/}
+              {/*  </IconButton>*/}
+              {/*  <IconButton className={classes.socialIcon}>*/}
+              {/*    <PinterestIcon className={classes.icon} />*/}
+              {/*  </IconButton>*/}
+              {/*</ListItem>*/}
             </List>
           </Grid>
           {/*<Grid item xs={12} md={10} className={classes.menuListContainer}>*/}

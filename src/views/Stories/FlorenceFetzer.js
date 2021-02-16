@@ -165,7 +165,7 @@ const StoryFlorenceFetzer = () => {
                       lazyProps={{width: '100%', height: '100%'}}
                     />
                     <Typography component="p" variant="caption" color="textPrimary" gutterBottom={true}>
-                      
+
                     </Typography>
                   </div>
                 </GridListTile>
