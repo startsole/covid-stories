@@ -199,7 +199,7 @@ const Footer = props => {
             <List disablePadding>
               <ListItem disableGutters className={classes.logoContainerItem}>
                 <div className={classes.logoContainer}>
-                  <a href="/" title="thefront">
+                  <a href="/covid-stories" title="COVID Stories">
                     <Image
                       className={classes.logoImage}
                       src="/covid-stories/images/logos/logo-negative.svg"
