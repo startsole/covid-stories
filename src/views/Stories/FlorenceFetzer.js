@@ -60,8 +60,8 @@ const content = {
     date: 'December 12, 2020',
   },
   cover: {
-    src: '/covid-stories/images/photos/blog/color1.png',
-    srcSet: '/covid-stories/images/photos/blog/color1.png 2x',
+    src: '/covid-stories/images/photos/blog/florence-fetzer/florence-5.png',
+    srcSet: '/covid-stories/images/photos/blog/florence-fetzer/florence-5.png 2x',
   }
 };
 
