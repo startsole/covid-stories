@@ -60,8 +60,8 @@ const content = {
     date: 'December 12, 2020',
   },
   cover: {
-    src: '/covid-stories/images/photos/blog/ms-carlene/carlene-3.jpg',
-    srcSet: '/covid-stories/images/photos/blog/ms-carlene/carlene-3.jpg 2x',
+    src: '/covid-stories/images/photos/blog/ms-carlene/carlene-3.png',
+    srcSet: '/covid-stories/images/photos/blog/ms-carlene/carlene-3.png 2x',
   }
 };
 
