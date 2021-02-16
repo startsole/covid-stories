@@ -11,6 +11,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import PinterestIcon from "@material-ui/icons/Pinterest";
 import Box from "@material-ui/core/Box";
+import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -197,6 +198,26 @@ const StoryDannyLewis = () => {
               <Typography component="p" variant="h6" color="textPrimary" gutterBottom={true}>
                 After interviewing Dr. Lewis, I see that he cares for his patients very much and always does what is best to care for their needs. He would never have expected that he would need that same kind of care and dedication from others to help him survive. Dr. Lewis now relates to his patients better because of his own experience with the Covid-19. Just as the disease helped him be a better doctor for his patients, he feels it has helped him be a better husband and father for his family. He said not seeing his wife and kids for six weeks was the hardest part. It was the six long weeks when Dr. Lewis was fighting for his life. Despite how terrible his ordeal was, he also realizes how very lucky he is to be alive
               </Typography>
+            </div>
+            <div className={classes.section}>
+              <Typography component="p" variant="h6" color="textPrimary" gutterBottom={true}>
+                Learn More about Daniel's story:
+              </Typography>
+              <Link href="https://www.youtube.com/watch?v=J4_jJIGTg34">
+                <Typography component="li">
+                TN Doctor Describes Recovering From Coronavirus, Urges People To Wear Masks | Craig Melvin | MSNBC - YouTube
+                </Typography>
+              </Link>
+              <Link href="https://www.msn.com/en-us/health/medical/greeneville-doctor-recovers-from-6-week-battle-with-covid-19/ar-BB16SNxu">
+                <Typography component="li">
+                Greeneville doctor recovers from 6-week battle with COVID-19 (msn.com)
+                </Typography>
+              </Link>
+              <Link href="https://www.youtube.com/watch?v=43pFbc3dmyM">
+                <Typography component="li">
+                Ballad Health doctor with COVID-19 in 'an ICU on a Ventilator' according to Ballad CEO - YouTube
+                </Typography>
+              </Link>
             </div>
 
             {/*<div>*/}
