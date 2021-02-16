@@ -70,13 +70,13 @@ const Hero = props => {
             />
             <List disablePadding>
               <ListItem disableGutters>
-                <ListItemAvatar className={classes.listItemAvatar}>
-                  <Avatar
-                    {...author.photo}
-                    alt={author.name}
-                    className={classes.avatar}
-                  />
-                </ListItemAvatar>
+                {/*<ListItemAvatar className={classes.listItemAvatar}>*/}
+                {/*  <Avatar*/}
+                {/*    {...author.photo}*/}
+                {/*    alt={author.name}*/}
+                {/*    className={classes.avatar}*/}
+                {/*  />*/}
+                {/*</ListItemAvatar>*/}
                 <ListItemText
                   primary={`Published by ${author.name}`}
                   secondary={`on ${author.date}`}
