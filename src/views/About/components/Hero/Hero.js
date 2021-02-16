@@ -54,8 +54,8 @@ const Hero = props => {
       />
       <Section className={classes.section}>
         <SectionHeader
-          title="A big title"
-          subtitle="subtitle text goes here.  something about a sentence long that's snappy"
+          title=""
+          subtitle=""
           align="left"
           data-aos="fade-up"
           disableGutter
