@@ -153,7 +153,7 @@ const Result = props => {
       <Divider className={classes.divider} />
       <div className={classes.list}>
         <div className={classes.avatarContainer}>
-          <Avatar {...props.author.photo} className={classes.avatar} />
+          {/*<Avatar {...props.author.photo} className={classes.avatar} />*/}
           <Typography variant="body2" color="textPrimary">
             {props.author.name}
           </Typography>
