@@ -259,20 +259,20 @@ const StoryMsCarlene = () => {
             </div>
 
 
-            <div>
-              <IconButton className={classes.socialIcon}>
-                <FacebookIcon/>
-              </IconButton>
-              <IconButton className={classes.socialIcon}>
-                <InstagramIcon/>
-              </IconButton>
-              <IconButton className={classes.socialIcon}>
-                <TwitterIcon/>
-              </IconButton>
-              <IconButton className={classes.socialIcon}>
-                <PinterestIcon/>
-              </IconButton>
-            </div>
+            {/*<div>*/}
+            {/*  <IconButton className={classes.socialIcon}>*/}
+            {/*    <FacebookIcon/>*/}
+            {/*  </IconButton>*/}
+            {/*  <IconButton className={classes.socialIcon}>*/}
+            {/*    <InstagramIcon/>*/}
+            {/*  </IconButton>*/}
+            {/*  <IconButton className={classes.socialIcon}>*/}
+            {/*    <TwitterIcon/>*/}
+            {/*  </IconButton>*/}
+            {/*  <IconButton className={classes.socialIcon}>*/}
+            {/*    <PinterestIcon/>*/}
+            {/*  </IconButton>*/}
+            {/*</div>*/}
             {/*</div>*/}
 
 
