@@ -35,11 +35,11 @@ const media = {
 }
 
 // const StoryPin = ({ text, url }) => <Paper style={style} elevation={4}><Link href={url}>{text}</Link></Paper>;
-const StoryPin = ({ text, url }) => <Link href={url}><Card style={root}>
+const StoryPin = ({ text, url, img }) => <Link href={url}><Card style={root}>
   <CardActionArea>
     <CardMedia
       style={media}
-      image="https://startsole.github.io/covid-stories/images/photos/blog/ms-carlene/carlene-4.jpg"
+      image={img}
       title="Contemplative Reptile"
     />
   </CardActionArea>
@@ -53,8 +53,8 @@ const StoryPin = ({ text, url }) => <Link href={url}><Card style={root}>
 class SimpleMap extends Component {
   static defaultProps = {
     center: {
-      lat: 36.3,
-      lng: -82.4014986,
+      lat: 36.29,
+      lng: -82.31,
     },
     zoom: 13
   };
@@ -90,6 +90,13 @@ class SimpleMap extends Component {
             text="Florence Fetzer"
             url="#florence-fetzer"
             img={'/covid-stories/images/photos/blog/florence-fetzer/florence-3.png'}
+          />
+          <StoryPin
+            lat={36.3443308}
+            lng={-82.2475737}
+            text="Ms. Carlene"
+            url="#ms-carlene"
+            img={'/covid-stories/images/photos/blog/ms-carlene/carlene-4.jpg'}
           />
         </GoogleMapReact>
       </div>
