@@ -9,6 +9,7 @@ import StoryMsCarlene from "./views/Stories/MsCarlene";
 import StoryFlorenceFetzer from "./views/Stories/FlorenceFetzer";
 import StoryDannyLewis from "./views/Stories/DannyLewis";
 import StoryCiaraWhite from "./views/Stories/CiaraWhite";
+import SimpleMap from "./views/Map/Map";
 
 const Routes = () => {
   return (
@@ -32,6 +33,12 @@ const Routes = () => {
           exact
           layout={MainLayout}
           path="/teachers"
+        />
+        <RouteWithLayout
+          component={SimpleMap}
+          exact
+          layout={MainLayout}
+          path="/map"
         />
       <RouteWithLayout
         component={BlogArticleView}
