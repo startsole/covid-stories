@@ -52,26 +52,26 @@ const StoryPin = ({ text, url, img }) => <Link href={url}><Card style={root}>
 class SimpleMap extends Component {
   static defaultProps = {
     center: {
-      lat: 36.29,
-      lng: -82.31,
+      lat: 36.19,
+      lng: -82.46,
     },
-    zoom: 13
+    zoom: 10
   };
 
   render() {
     return (
       // Important! Always set the container height explicitly
-      <div style={{ height: '100vh', width: '100%' }}>
+      <div style={{ height: 'calc(100vh - 64px)', width: '100%' }}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: 'AIzaSyA_4aqJcZYOl-dHZdtZSht3rOolk8JzO3I' }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
           options={function (maps) {
             return {
-              panControl: false,
-              mapTypeControl: false,
-              scrollwheel: false,
-              zoomControl: false,
+              // panControl: false,
+              // mapTypeControl: false,
+              // scrollwheel: false,
+              // zoomControl: false,
               styles: [{ stylers: [{ 'saturation': -100 }, { 'gamma': 0.8 }, { 'lightness': 4 }, { 'visibility': 'on' }] }]
             }
           }}
