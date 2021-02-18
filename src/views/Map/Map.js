@@ -40,7 +40,6 @@ const StoryPin = ({ text, url, img }) => <Link href={url}><Card style={root}>
     <CardMedia
       style={media}
       image={img}
-      title="Contemplative Reptile"
     />
   </CardActionArea>
   <CardActions>
@@ -97,6 +96,13 @@ class SimpleMap extends Component {
             text="Ms. Carlene"
             url="#ms-carlene"
             img={'/covid-stories/images/photos/blog/ms-carlene/carlene-4.jpg'}
+          />
+          <StoryPin
+            lat={36.173974}
+            lng={-82.7919521}
+            text="Danny Lewis"
+            url="#danny-lewis"
+            img={'/covid-stories/images/photos/blog/daniel-lewis/daniel-lewis-2.png'}
           />
         </GoogleMapReact>
       </div>
