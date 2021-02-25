@@ -151,6 +151,9 @@ const StoryCiaraWhite = () => {
                 className={classes.image}
                 lazyProps={{width: '100%', height: '100%'}}
               />
+              <Typography component="p" variant="caption" color="textPrimary" gutterBottom={true}>
+                Johnson City, TN
+              </Typography>
             </div>
             <div className={classes.section}>
               <Typography component="p" variant="h6" color="textPrimary" gutterBottom={true}>
@@ -188,7 +191,7 @@ const StoryCiaraWhite = () => {
                       lazyProps={{width: '100%', height: '100%'}}
                     />
                     <Typography component="p" variant="caption" color="textPrimary" gutterBottom={true}>
-                      Ms. Carlene with the Elizabethton High School principal Jon Minton, one of her former students
+                      East Tennessee State University
                     </Typography>
                   </div>
                 </GridListTile>
@@ -199,6 +202,9 @@ const StoryCiaraWhite = () => {
                     className={classes.image}
                     lazyProps={{width: '100%', height: '100%'}}
                   />
+                  <Typography component="p" variant="caption" color="textPrimary" gutterBottom={true}>
+                    Outside of Johnson City Pediatrics
+                  </Typography>
                 </GridListTile>
               </GridList>
             </div>
