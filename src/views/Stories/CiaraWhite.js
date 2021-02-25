@@ -60,8 +60,8 @@ const content = {
     date: 'December 12, 2020',
   },
   cover: {
-    src: '/covid-stories/images/photos/blog/ciara/ciara1.png',
-    srcSet: '/covid-stories/images/photos/blog/ciara/ciara1.png 2x',
+    src: '/covid-stories/images/photos/blog/ciara/ciara4.png',
+    srcSet: '/covid-stories/images/photos/blog/ciara/ciara4.png 2x',
   }
 };
 
@@ -145,6 +145,14 @@ const StoryCiaraWhite = () => {
               </Typography>
             </div>
             <div className={classes.section}>
+              <Image
+                src={'/covid-stories/images/photos/blog/ciara/ciara1.png'}
+                srcSet={'/covid-stories/images/photos/blog/ciara/ciara1.png 2x'}
+                className={classes.image}
+                lazyProps={{width: '100%', height: '100%'}}
+              />
+            </div>
+            <div className={classes.section}>
               <Typography component="p" variant="h6" color="textPrimary" gutterBottom={true}>
                 According to White, Johnson City Pediatrics (JCP) is a 6 doctor practice that is part of State of Franklin Healthcare Associates, a 16 clinic healthcare system serving Carter, Washington, Sullivan, and Greene counties in rural northeast TN. She started with JCP in September of 2019. She quickly picked up on policies and procedures in the clinic. White’s job includes answering incoming calls, checking in/out patients, patient triage, scheduling, scanning and indexing into the medical records system, and filtering prescription requests. Soon after getting a grasp of her job, COVID-19 hit the Tri-Cities and her clinic was locked down and many employees were furloughed. White says, “Many things have changed since the beginning of the Covid-19 pandemic. Most people at the office were laid off until the beginning of August and some did not even return then. My office laid off 10 people. All we had left was 2 people working up front, one in referrals, four nurses, and of course six doctors. So, we had a huge cut of employees very fast.”
               </Typography>
@@ -163,6 +171,36 @@ const StoryCiaraWhite = () => {
               <Typography component="p" variant="h6" color="textPrimary" gutterBottom={true}>
                 “Parents are all over the spectrum during this pandemic. They range from terrified to enraged and everything in between” she says. There is a mix of refusal to come in even for well visits and parents who have very sick, likely COVID positive children demanding to come in. Ciara indicates that JCP does COVID testing but usually they do telehealth and they have testing in the drive-through tent set up in the parking lot. There have been much COVID exposures in the office as doctors also make rounds on hospital patients and newborns; staff members have also seen exposure through patients, at home, or even a parent that tested positive. When exposed, quarantines leave them off work anywhere from 10-24 days depending on circumstances.
               </Typography>
+            </div>
+            <div className={classes.section}>
+              <GridList
+                cellHeight={isMd ? 360 : 260}
+                cols={2}
+                spacing={isMd ? 24 : 8}
+              >
+
+                <GridListTile key={1} cols={isMd ? 1 : 2}>
+                  <div>
+                    <Image
+                      src={'/covid-stories/images/photos/blog/ciara/ciara3.png'}
+                      srcSet={'/covid-stories/images/photos/blog/ciara/ciara3.png 2x'}
+                      className={classes.image}
+                      lazyProps={{width: '100%', height: '100%'}}
+                    />
+                    <Typography component="p" variant="caption" color="textPrimary" gutterBottom={true}>
+                      Ms. Carlene with the Elizabethton High School principal Jon Minton, one of her former students
+                    </Typography>
+                  </div>
+                </GridListTile>
+                <GridListTile key={2} cols={isMd ? 1 : 2}>
+                  <Image
+                    src={'/covid-stories/images/photos/blog/ciara/ciara2.png'}
+                    srcSet={'/covid-stories/images/photos/blog/ciara/ciara2.png 2x'}
+                    className={classes.image}
+                    lazyProps={{width: '100%', height: '100%'}}
+                  />
+                </GridListTile>
+              </GridList>
             </div>
             <div className={classes.section}>
               <Typography component="p" variant="h6" color="textPrimary" gutterBottom={true}>
