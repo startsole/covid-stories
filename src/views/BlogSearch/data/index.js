@@ -67,8 +67,8 @@ export const result = [
   },
   {
     cover: {
-      src: '/covid-stories/images/photos/blog/ciara3.png',
-      srcSet: '/covid-stories/images/photos/blog/ciara3.png 2x',
+      src: '/covid-stories/images/photos/blog/ciara/ciara3.png',
+      srcSet: '/covid-stories/images/photos/blog/ciara/ciara3.png 2x',
     },
     title: 'Ciara White',
     subtitle:

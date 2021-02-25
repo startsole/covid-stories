@@ -60,8 +60,8 @@ const content = {
     date: 'December 12, 2020',
   },
   cover: {
-    src: '/covid-stories/images/photos/blog/ciara1.png',
-    srcSet: '/covid-stories/images/photos/blog/ciara1.png 2x',
+    src: '/covid-stories/images/photos/blog/ciara/ciara1.png',
+    srcSet: '/covid-stories/images/photos/blog/ciara/ciara1.png 2x',
   }
 };
 
