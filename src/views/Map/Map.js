@@ -81,14 +81,14 @@ class SimpleMap extends Component {
             lng={-82.4014986}
             text="Ciara White"
             url="#ciara-white"
-            img={'/covid-stories/images/photos/blog/color4.png'}
+            img={'/covid-stories/images/photos/blog/ciara/ciara3.png'}
           />
           <StoryPin
             lat={36.3081711}
             lng={-82.3760159}
             text="Florence Fetzer"
             url="#florence-fetzer"
-            img={'/covid-stories/images/photos/blog/florence-fetzer/florence-3.png'}
+            img={'/covid-stories/images/photos/blog/florence-fetzer/florence-2.png'}
           />
           <StoryPin
             lat={36.3443308}
