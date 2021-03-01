@@ -160,6 +160,36 @@ const StoryDannyLewis = () => {
               </Typography>
             </div>
             <div className={classes.section}>
+              <GridList
+                cellHeight={isMd ? 360 : 260}
+                cols={2}
+                spacing={isMd ? 24 : 8}
+              >
+
+                <GridListTile key={1} cols={isMd ? 1 : 2}>
+                  <div>
+                    <Image
+                      src={'/covid-stories/images/photos/blog/daniel-lewis/daniel-lewis-5.png'}
+                      srcSet={'/covid-stories/images/photos/blog/daniel-lewis/daniel-lewis-5.png 2x'}
+                      className={classes.image}
+                      lazyProps={{width: '100%', height: '100%'}}
+                    />
+                    <Typography component="p" variant="caption" color="textPrimary" gutterBottom={true}>
+
+                    </Typography>
+                  </div>
+                </GridListTile>
+                <GridListTile key={2} cols={isMd ? 1 : 2}>
+                  <Image
+                    src={'/covid-stories/images/photos/blog/daniel-lewis/daniel-lewis-6.png'}
+                    srcSet={'/covid-stories/images/photos/blog/daniel-lewis/daniel-lewis-6.png 2x'}
+                    className={classes.image}
+                    lazyProps={{width: '100%', height: '100%'}}
+                  />
+                </GridListTile>
+              </GridList>
+            </div>
+            <div className={classes.section}>
               <Typography component="p" variant="h6" color="textPrimary" gutterBottom={true}>
                 Dr. Lewis was on a ventilator for ten days and besides the physical trauma, it gave him mental and emotional scars too. When you are placed on a ventilator, Dr. Lewis revealed “they give you medicine while you're on the machine to sedate you, so you're not necessarily awake fighting the ventilator, and it gave me memories that didn’t even happen.” But that wasn’t the hardest part, Dr. Lewis revealed. He was also away from his family for over six weeks, and it was the hardest part for him.
               </Typography>
