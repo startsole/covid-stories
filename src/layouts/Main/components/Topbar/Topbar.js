@@ -229,6 +229,15 @@ const Topbar = props => {
                 color="textSecondary"
                 className={classes.listItemText}
                 component="a"
+                href="#about"
+              >
+                About
+              </Typography>
+              <Typography
+                variant="body1"
+                color="textSecondary"
+                className={classes.listItemText}
+                component="a"
                 href="#map"
               >
                 Map

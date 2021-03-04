@@ -4,7 +4,7 @@ import {Redirect, Switch} from 'react-router-dom';
 import {RouteWithLayout} from './common';
 import {Main as MainLayout} from './layouts';
 
-import {BlogArticle as BlogArticleView, BlogSearch as BlogSearchView, Home as HomeView, About as AboutView} from './views';
+import {BlogArticle as BlogArticleView, BlogSearch as BlogSearchView, Home as HomeView, Teachers as TeacherView, About as AboutView} from './views';
 import StoryMsCarlene from "./views/Stories/MsCarlene";
 import StoryFlorenceFetzer from "./views/Stories/FlorenceFetzer";
 import StoryDannyLewis from "./views/Stories/DannyLewis";
@@ -29,10 +29,16 @@ const Routes = () => {
         path="/stories"
       />
         <RouteWithLayout
-          component={AboutView}
+          component={TeacherView}
           exact
           layout={MainLayout}
           path="/teachers"
+        />
+        <RouteWithLayout
+          component={AboutView}
+          exact
+          layout={MainLayout}
+          path="/about"
         />
         <RouteWithLayout
           component={SimpleMap}
