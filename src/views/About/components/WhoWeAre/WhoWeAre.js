@@ -23,7 +23,7 @@ const WhoWeAre = props => {
       <Grid container spacing={isMd ? 4 : 2}>
         <Grid item xs={12} sm={6} data-aos="fade-up">
           <SectionHeader
-            title="Who are we?"
+            title="My Changing Paradigm "
             subtitle="Our sign up is dead simple. We only require your basic company information and what type of data storage you want. Our sign up is dead simple. We only require your basic company information and what type of data storage you want."
             disableGutter
             align="left"
