@@ -6,7 +6,7 @@ import {useMediaQuery, Grid, Typography, Button, GridList, GridListTile} from '@
 import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
 
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles(theme => ({
   root: {},
   image: {
     maxWidth: 420,
