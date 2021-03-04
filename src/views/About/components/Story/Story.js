@@ -108,7 +108,7 @@ const Story = props => {
           data-aos={'fade-up'}
         >
           <Image
-            src="/images/illustrations/team-project.svg"
+            src="/covid-stories/images/illustrations/team-project.svg"
             alt="Project Based Learning"
             className={classes.image}
           />

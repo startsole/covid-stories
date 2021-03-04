@@ -36,7 +36,7 @@ const About = () => {
 
   return (
     <div className={classes.root}>
-      <Hero />
+      {/*<Hero />*/}
       <Section>
         <Story />
       </Section>
