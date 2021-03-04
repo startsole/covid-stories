@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-import {useMediaQuery, Grid, Typography, Button} from '@material-ui/core';
+import {useMediaQuery, Grid, Typography, Button, GridList, GridListTile} from '@material-ui/core';
 import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
 
@@ -10,6 +10,16 @@ const useStyles = makeStyles(() => ({
   root: {},
   image: {
     maxWidth: 420,
+  },
+  photo: {
+    objectFit: 'cover',
+    borderRadius: theme.spacing(1),
+  },
+  section: {
+    marginBottom: theme.spacing(2),
+    [theme.breakpoints.up('md')]: {
+      marginBottom: theme.spacing(4),
+    },
   },
 }));
 
@@ -154,6 +164,38 @@ const Story = props => {
             </Typography>
           </div>
         </Grid>
+
+
+        <div className={classes.section}>
+          <GridList
+            cellHeight={isMd ? 360 : 260}
+            cols={2}
+            spacing={isMd ? 24 : 8}
+          >
+
+            <GridListTile key={1} cols={isMd ? 1 : 2}>
+              <div>
+                <Image
+                  src={'/covid-stories/images/photos/about/alex-campbell-1.png'}
+                  srcSet={'/covid-stories/images/photos/about/alex-campbell-1.png 2x'}
+                  className={classes.photo}
+                  lazyProps={{width: '100%', height: '100%'}}
+                />
+              </div>
+            </GridListTile>
+            <GridListTile key={2} cols={isMd ? 1 : 2}>
+              <Image
+                src={'/covid-stories/images/photos/about/alex-campbell-2.png'}
+                srcSet={'/covid-stories/images/photos/about/alex-campbell-2.png 2x'}
+                className={classes.photo}
+                lazyProps={{width: '100%', height: '100%'}}
+              />
+            </GridListTile>
+          </GridList>
+        </div>
+
+
+
 
         <Grid
           item
