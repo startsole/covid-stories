@@ -16,6 +16,8 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import PinterestIcon from '@material-ui/icons/Pinterest';
 
 import { Image } from 'components/atoms';
+import Button from "@material-ui/core/Button";
+import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -195,7 +197,7 @@ const Footer = props => {
     <div {...rest} className={clsx(classes.root, className)}>
       <div className={classes.footerContainer}>
         <Grid container spacing={4}>
-          <Grid item xs={12} md={2}>
+          <Grid item xs={12}>
             <List disablePadding>
               <ListItem disableGutters className={classes.logoContainerItem}>
                 <div className={classes.logoContainer}>
@@ -208,6 +210,13 @@ const Footer = props => {
                     />
                   </a>
                 </div>
+              </ListItem>
+              <ListItem>
+                <Link href={'mailto:alex.campbell@ecschools.net'}>
+                <Typography variant={'body1'} color={'secondary'}>
+                  Contact: alex.campbell@ecschools.net
+                </Typography>
+                </Link>
               </ListItem>
               {/*<ListItem disableGutters>*/}
               {/*  <IconButton className={classes.socialIcon}>*/}
